@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    align-content: center;
+}
+
+.navbar {
+    display: flex;
+    margin: 0;
+    font-family: 'Roboto';
+    color: #e6eef6;
+    font-size: 1.5rem;
+    background-color: #2d3d4e;
+    padding: 15px;
+}
+
+.bar-menu {
+    display: inherit;
+    font-size: 1rem;
+    color: #ced8e2;
+    margin-left: auto;
+    align-items: center;
+}
+
+.bar-menu li {
+    padding-left: 12px;
+    cursor: pointer;
+}
