@@ -1,0 +1,4 @@
+.all-recipes {
+    display: flex;
+    flex-direction: row;
+}
