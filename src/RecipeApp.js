@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Recipe from './Recipe'
-import TaskBar from './TaskBar'
+import NavBar from './NavBar'
 // import PropTypes from 'prop-types';
 
 class RecipeApp extends Component {
   render() {
     return (
       <div className="App">
-        <TaskBar />
+        <NavBar />
         <div className="all-recipes">
           {this.props.recipes.map((r, index) => (
             <Recipe
